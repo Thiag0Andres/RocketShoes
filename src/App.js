@@ -1,10 +1,17 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+
+import Header from './components/Header';
+import Routes from './routes';
+import GlobalStyle from './styles/globalStyle';
 
 const App = () => {
    return (
-      <div className="App">
-         <h1>Hello</h1>
-      </div>
+      <BrowserRouter>
+         <Header />
+         <Routes />
+         <GlobalStyle />
+      </BrowserRouter>
    );
 };
 
