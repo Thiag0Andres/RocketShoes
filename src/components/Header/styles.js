@@ -20,7 +20,7 @@ export const Cart = styled(Link)`
 
    div {
       text-align: right;
-      margin-left: 10px;
+      margin-right: 10px;
 
       strong {
          display: block;
